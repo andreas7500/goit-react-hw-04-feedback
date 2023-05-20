@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.button {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(202, 42, 42);
+  border: 1px solid grey;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(159, 156, 156, 0.458);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: lightblue;
+}
