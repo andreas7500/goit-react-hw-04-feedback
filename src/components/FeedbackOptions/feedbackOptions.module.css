@@ -13,7 +13,8 @@
 .button {
   width: 70px;
   height: 40px;
-  background-color: rgb(202, 42, 42);
+  background-color: rgb(130, 202, 42);
+
   border: 1px solid grey;
   padding: 5px 10px;
   border-radius: 5px;
@@ -24,5 +25,5 @@
 }
 .button:hover,
 .button:focus {
-  background-color: lightblue;
+  background-color: rgb(123, 208, 131);
 }
